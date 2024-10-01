@@ -4,7 +4,7 @@ function sommaInteri(N) {
     let count = 0;
 
     // Controllo per verificare se il numero è maggiore di 0
-    if (N < 0 || N === null ) {
+    if (typeof N !== 'number' || N < 0) {
         return 'Invalid input'
     }
 
