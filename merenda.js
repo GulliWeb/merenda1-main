@@ -3,7 +3,7 @@ function sommaInteri(N) {
     let somma = 0;
     let count = 0;
 
-    // Controllo per verificare se il numero è maggiore di 0
+    // Controllo per verificare se il numero è maggiore di 0 ed è di tipo NUMERO
     if (typeof N !== 'number' || N < 0) {
         return 'Invalid input'
     }
